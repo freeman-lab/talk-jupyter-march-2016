@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link href="css/styles.css" rel="stylesheet" />
+<link href="fonts/06.Geomanist_Medium_webfontkit/stylesheet.css" rel="stylesheet"/>
+<link href="fonts/04.Geomanist_Regular_webfontkit/stylesheet.css" rel="stylesheet"/>
+<link href="fonts/03.Geomanist_Light_webfontkit/stylesheet.css" rel="stylesheet"/>
+<link href="fonts/source-serif-pro/source-serif-pro.css" rel="stylesheet"/>
+<script src="js/highlight.min.js"></script>
+<link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/tomorrow-night.min.css">
+<script>hljs.initHighlightingOnLoad();</script>
+
+<section >
+  <h1 class='title'>binder</h1>
+  <h3><a href="https://github.com/freeman-lab/talk-nyc-fall-2015">github.com/freeman-lab/talk-jupyter-march-2016</a></h3>
+</section>
+
+<section>
+  <h1>who am i</h1>
+  <h3>jeremy freeman</h3>
+  <h3>full stack neuroscience</h3>
+  <h3><a href="https://twitter.com/thefreemanlab">@thefreemanlab</a> at janelia</h3>
+</section>
+
+<section class='full-image' style="background: none; background-size:cover; background:url('images/janelia.jpg');">
+</section>
+
+<section class='full-image' style="background: none; background-size:cover; background:url('images/starfleet.jpg');">
+</section>
+
+<section>
+  <h1>thanks</h1>
+  <h5>andrew osheroff (<a href="https://twitter.com/andrewosh">@andrewosh</a>)</h5>
+  <h5>kyle kelley (<a href="https://twitter.com/rbgkrk">@rgbkrk</a>)</h5>
+  <h5>min rk (<a href="https://twitter.com/minrk">@minrk</a>)</h5>
+  <h5>andrew odewhan (<a href="https://twitter.com/odewahn">@odewahn</a>)</h5>
+  <h5>zach schwartz (<a href="https://twitter.com/zischwartz">@zischwartz</a>)</h5>
+  <h5>users and contributors!</h3>
+</section>
+
+<section>
+  <h1>it all started with brains...</h1>
+</section>
+
+<section style='background:black'>
+<video autoplay loop src="mov/three-walls.mov" width='1000px' style='position: absolute; top: 10%; left: -10%; -webkit-transform:rotate(90deg); transform:rotate(90deg);'></video>
+<video autoplay loop src="mov/mouse-three-walls-2-low-silent.mp4" width="1000px" style='position: absolute; top: 10%; left: 30%; -webkit-transform:rotate(90deg); transform:rotate(90deg);'></video>
+</section>
+
+<section class='full-image'>
+<h4 style='color: rgb(230,230,230); text-align: right; position: absolute; right: 5%; bottom: 10%; font-size: 62px; z-index: 1000'>nicholas<br>sofroniew<br>@soroniewn</h4>
+<image style='width: 1500px'src='images/nick.jpg'></image>
+</section>
+
+<section class='full-image'>
+<image style='width: 1500px'src='images/nick2.jpeg'></image>
+</section>
+
+<section style='background: white'>
+  <video style='position: absolute; left: 2%; top: 2%' autoplay loop src="mov/movie-tiled-update-small.mp4" width="850px"></video>
+  <div class='author'>nicholas sofroniew<br>dan flickinger<br>karel svoboda</div>
+</section>
+
+<section>
+  <h1>how do we put <br>all of <span class='emph'>that</span> online?</h1>
+</section>
+
+<section style='background: rgb(230,230,230)'>
+<h4 style='color: rgb(20,20,20); text-align: right; position: absolute; right: 5%; top: 10%; font-size: 62px; z-index: 1000'>github.com/<br>sofroniewn/<br>tactile-coding</h4>
+  <image style='width: 900px;position: absolute; left: 5%; margin-top: 5%'src='images/paper.png'></image>
+</section>
+
+<section>
+  <h1>could we turn any repo into a deployment??</h1>
+</section>
+
+<section>
+  <h1 style='margin-top:400px'>then i had a beer with fernando</h1>
+</section>
+
+<section class='full-image' style="background: none; background-size:cover; background:url('images/fernando-brian.jpg');">
+</section>
+
+<section style="background: none; background-size:cover; background:url('images/fernando-brian-dim.jpeg');">
+<h1 style='margin-top:50px'>"repos + notebooks = torpedo aimed at academic publishing"<br>-- anonymous</h1>
+</section>
+
+<section>
+  <h1>so we made a prototype</h1>
+</section>
+
+<section class='full-image-0'>
+<h3 style='color: rgb(20,20,20); text-align: right; position: absolute; right: 5%; top: 5%; font-size: 62px; z-index: 1000'>andrew osheroff<br>@andrewosh</h3>
+<image style='width: 1500px'src='images/andrew.jpg'></image>
+</section>
+
+<section class='full'>
+  <iframe src='http://mybinder.org' frameborder='0'></iframe>
+</section>
+
+<section>
+  <h1>what just<br>happened?</h1>
+</section>
+
+<section>
+  <h1><span style='font-size: 60px'>STEP 1</span><span style='font-size:80px'>: repo to image</span></h1>
+  <img src='images/steps-step-1.svg' style='margin-left: -20px; width: 1100px'></img>
+</section>
+
+<section>
+  <h1><span style='font-size: 60px'>STEP 2</span><span style='font-size:80px'>: image to template</span></h1>
+  <img src='images/steps-step-2.svg' style='margin-left: -20px; width: 1100px'></img>
+</section>
+
+<section>
+  <h1><span style='font-size: 60px'>STEP 3</span><span style='font-size:80px'>: template to deployment</span></h1>
+  <img src='images/steps-step-3.svg' style='margin-left: -20px; width: 1100px'></img>
+</section>
+
+<section class='full'>
+  <iframe src='http://mybinder.org/status/' frameborder='0'></iframe>
+</section>
+
+<section class='full'>
+  <iframe src='http://mybinder.org/feed/' frameborder='0'></iframe>
+</section>
+
+<section style='background: rgb(230,230,230)'>
+<h3 style='color: rgb(20,20,20); text-align: right; position: absolute; right: 5%; top: 5%; font-size: 62px; z-index: 1000'>github.com/<br>sofroniewn/<br>tactile-coding</h3>
+  <image style='width: 900px; margin-top: 5%; position: absolute; left: 5%'src='images/paper-bindered.png'></image>
+</section>
+
+<section style='background: rgb(230,230,230)'>
+<h3 style='color: rgb(20,20,20); text-align: right; position: absolute; right: 5%; top: 5%; font-size: 62px; z-index: 1000'>github.com/<br>mathisonian/<br>strata-singapore</h3>
+  <image style='width: 900px; margin-top: 5%; position: absolute; left: 5%'src='images/tutorial.png'></image>
+</section>
+
+<section style='background: rgb(230,230,230)'>
+<h3 style='color: rgb(20,20,20); text-align: right; position: absolute; right: 5%; top: 5%; font-size: 62px; z-index: 1000'>github.com/<br>minrk/<br>ligo-binder</h3>
+  <image style='width: 900px; margin-top: 5%; position: absolute; left: 5%'src='images/ligo.png'></image>
+</section>
+
+<section>
+  <h1 class='title'>FAQ</h1>
+</section>
+
+<section>
+  <h1><span class='tag'>#</span>who's paying?</h1>
+  <h1 class='answer'>my lab, it's just<br> a couple nodes</h1>
+</section>
+
+<section>
+  <h1><span class='tag'>#</span>our comapny wants to sell this as a service, can you please stop?</h1>
+  <h1 class='answer'>no</h1>
+</section>
+
+<section>
+  <h1><span class='tag'>#</span>what about data?</h1>
+  <h1 class='answer'>dat!</h1>
+</section>
+
+<section style='background: rgb(230,230,230)'>
+ <image style='width: 1100px; margin-top: 5%'src='images/dat-logo.svg'></image>
+</section>
+
+<section>
+  <h1><span class='tag'>#</span>can i deploy one?</h1>
+  <h1 class='answer'>yes! it'll be really easy really soon</h1>
+</section>
+
+<section>
+  <h1>complete rewrite in node.js</h1>
+  <pre><code class="python">binder-build<br>binder-deploy-kubernetes<br>binder-client<br>binder-control</pre></code>
+</section>
+
+<section>
+  <h1>all the links</h1>
+  <h3 >tmpnb (<a href="https://github.com/jupyter/tmpnb">github.com/jupyter/tmpnb</a>)</h3>
+  <h3 >binder site (<a href="http://mybinder.org">mybinder.org</a>)</h3>
+  <h3 >binder github (<a href="https://github.com/binder-project">github.com/binder-project</a>)</h3>
+</section>
+
+<section>
+<h1 class='title'>THANKS!</h1>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/stack.v1.js"></script>
+<script>
+
+var mystack = stack()
+    .on("activate", activate)
+    .on("deactivate", deactivate);
+
+var section = d3.selectAll("section"),
+    follow = d3.select("#follow"),
+    followAnchor = d3.select("#follow-anchor"),
+    lorenz = d3.select("#lorenz"),
+    followIndex = section[0].indexOf(follow.node()),
+    lorenzIndex = section[0].indexOf(lorenz.node());
+
+function refollow() {
+  followAnchor.style("top", (followIndex + (1 - mystack.scrollRatio()) / 2 - d3.event.offset) * 100 + "%");
+}
+
+function activate(d, i) {
+  var track = $('.indicator').children()
+  track.css('height','15px')
+  track.css('width','15px')
+  track.css('border-radius','10px')
+  track.css('background','none')
+  track.css('background-color','rgb(255,255,255)')
+  track.css('opacity', '0.5')
+  track.css('margin-left', '5px')
+  if (i === followIndex) mystack.on("scroll.follow", refollow);
+  if (i === lorenzIndex) startLorenz();
+}
+
+function deactivate(d, i) {
+  if (i === followIndex) mystack.on("scroll.follow", null);
+  if (i === lorenzIndex) stopLorenz();
+}
+
+var lorenzInterval;
+
+function startLorenz() {
+  var δτ = 0.003,
+      ρ = 28,
+      σ = 10,
+      β = 8 / 3,
+      x = .5,
+      y = .5,
+      z = 10,
+      n = 30;
+
+  var width = 1280,
+      height = 720;
+
+  var canvas = d3.select("canvas")
+      .style("position", "absolute")
+      .style("top", 0)
+      .style("left", 0)
+      .style("width", "100%")
+      .style("height", "100%")
+      .attr("width", width)
+      .attr("height", height);
+
+  var color = d3.scale.linear()
+      .domain([0, 20, 30, 50])
+      .range(["yellow", "orange", "brown", "purple"])
+      .interpolate(d3.interpolateHcl);
+
+  var context = canvas.node().getContext("2d");
+
+  context.lineWidth = .2;
+  context.fillStyle = "rgba(0,0,0,.03)";
+
+  d3.timer(function() {
+    context.save();
+    context.globalCompositeOperation = "lighter";
+    context.translate(width / 2, height / 2);
+    context.scale(12, 14);
+    context.rotate(30);
+    for (var i = 0; i < n; ++i) {
+      context.strokeStyle = color(z);
+      context.beginPath();
+      context.moveTo(x, y);
+      x += δτ * σ * (y - x);
+      y += δτ * (x * (ρ - z) - y);
+      z += δτ * (x * y - β * z);
+      context.lineTo(x, y);
+      context.stroke();
+    }
+    context.restore();
+    return !lorenzInterval;
+  });
+
+  lorenzInterval = setInterval(function() {
+    context.fillRect(0, 0, width, height);
+  }, 100);
+}
+
+function stopLorenz() {
+  lorenzInterval = clearInterval(lorenzInterval);
+}
+
+</script>
